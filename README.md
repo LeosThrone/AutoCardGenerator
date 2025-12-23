@@ -19,7 +19,8 @@ A dynamic web-based application built using **HTML**, **CSS**, and **JavaScript*
 3. A video-style card is generated dynamically below the form.
 4. Input fields reset automatically for the next entry.
 
-## 📸 Screenshot ![AutoCardGenerator](https://github.com/LeosThrone/AutoCardGenerator/blob/f38582dd884a6913b46195fb656cc9d8412a6ab4/Screenshot.png)
+## 📸 Screenshot 
+![AutoCardGenerator](https://github.com/LeosThrone/AutoCardGenerator/blob/f38582dd884a6913b46195fb656cc9d8412a6ab4/Screenshot.png)
 
 ## 🏃‍♀️ How to Run
 1. Clone the repository:
