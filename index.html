@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoCardGenerator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="section">
+        <div class="flex vdetails">
+            <form action="" class="flex">
+                <div class="text">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" placeholder="Add a title that discribes your video...">
+                </div>
+                <div class="text">
+                    <label for="cName">Channel Name</label>
+                    <input type="text" id="cName" placeholder="Enter your youtube channel name...">
+                </div>
+                <div class="text">
+                    <label for="views">Views</label>
+                    <input type="text" id="views" placeholder="">
+                </div>
+                <div class="text">
+                    <label for="monthsOld">Months</label>
+                    <input type="text" id="monthsOld" placeholder="">
+                </div>
+                <div class="text">
+                    <label for="duration">Duration</label>
+                    <input type="text" id="duration" placeholder="">
+                </div>
+                <div class="text">
+                    <label for="thumbnail">Thumbnail Link</label>
+                    <input type="text" id="thumbnail" placeholder="">
+                </div>
+            </form>
+
+            <div>
+                <button id="upload" onclick="createCard()">Upload</button>
+            </div>
+        </div>
+
+        <div class="container flex" id="cardsContainer">
+            <div class="temp">
+                <div class="imgcont">
+                    <img src="https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDWfGPsuQKuWateaRbWeBo1MDhM3A" alt="thumbnail">
+                    <div class="duration">31:40</div>
+                </div>
+                <ul>
+                    <li>
+                        <div class="title">Installing VS Code & How Websites Work | Sigma Web Development Course - Tutorial #1</div>
+                    </li>
+                    <li>
+                        <div class="details">
+                            <ul class="content flex">
+                                <li>CodeWithHarry</li>
+                                <li>• 1.6M views •</li>
+                                <li>7 months ago</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
