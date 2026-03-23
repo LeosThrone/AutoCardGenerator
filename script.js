@@ -49,7 +49,7 @@ function createCard(){
                     </li>
                 </ul>
             </div>`
-  document.getElementById("cardsContainer").insertAdjacentHTML("afterend", html)
+  document.getElementById("cardsContainer").insertAdjacentHTML("beforeend", html)
 
   resetFields();
 }
